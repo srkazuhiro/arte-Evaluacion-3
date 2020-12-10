@@ -1,0 +1,208 @@
+{% load static %}
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="css/fontawesome.com">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>Ground Zero </title>
+</head>
+
+<body class="bg-white">
+  <div id="carouselEducaCodigo" class="carousel slide" data-ride="carousel">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#"><img src="{% static 'images/logo1.png' %}" width="50" height="50"
+          class="d-inline-block align-center" alt=""> Ground Zero</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link">Bienvenido, {{request.user}}</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="#">inicio<span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">ilustraciones</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="login/">Iniciar Sesión</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="logout/">Cerrar Sesión</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container-fluid mt-4 text-secondary" style="margin: 10rem 0 0 0;">
+      <div class="row align-items-center">
+        <div class="col-7">
+          <a href="#1">
+            <img src="{% static 'images/img9.jpg' %}" alt="Responsive image" class="img-thumbnail">
+          </a>
+        </div>
+        <div class="col-4">
+          <div class="w-50 mx-auto"></div>
+          <h1> Kamina </h1>
+          <h5> Resumen de historia: Kamina es un personaje de Tengen Toppa Gurren Lagann.Proveniente de la aldea
+            subterránea de Jeeha, fundador y líder de la Brigada Gurren, fue quién inspiró a Simon a creer en sí
+            mismo.Sus gafas son parte del símbolo de la brigada Gurren.Con el transcurso de los años, dejó un legado, el
+            cual fue adoptado por Simon y el resto de los integrantesde la brigada Gurren. </h5>
+          <h5> Tamaño original: 1080 x 1920</h5>
+          <h5> Diseño: Digital</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-4 text-secondary" style="margin: 10rem 0 0 0;">
+      <div class="row align-items-center">
+        <div class="col-7">
+          <a href="#1">
+            <img src="{% static 'images/img10.jpg' %}" alt="Responsive image" class="img-thumbnail">
+          </a>
+        </div>
+        <div class="col-4">
+          <div class="w-50 mx-auto"></div>
+          <h1> Gon Freecss </h1>
+          <h5> A la edad de 20 años, Ging Freecss regresó a su casa en la Isla Ballena por primera vez en ocho años
+            llevando consigo a su pequeño hijo, Gon. Cuando se le preguntó acerca de la madre del niño, simplemente
+            contesta que "están separados". Cuando Ging trata de dejar a Gon al cuidado de su abuela por un tiempo, su
+            prima Mito se enfurece y le quita la custodia de Gon (esto es extraño porque ella sólo habría tenido 13 años
+            en ese momento). Ging deja la Isla Ballena para nunca más volver. </h5>
+          <h5> Tamaño original: 1080 x 1920</h5>
+          <h5> Diseño: Digital </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-4 text-secondary" style="margin: 10rem 0 0 0;">
+      <div class="row align-items-center">
+        <div class="col-7">
+          <a href="#1">
+            <img src="{% static 'images/img8.png' %}" alt="Responsive image" class="img-thumbnail">
+          </a>
+        </div>
+        <div class="col-4">
+          <div class="w-50 mx-auto"></div>
+          <h1> Lelouch vi Britannia </h1>
+          <h5> Es el protagonista de la serie Code Geass. Es el undécimo príncipe del Santo Imperio de Britannia e hijo
+            del nonagésimoctavo (98) Emperador de Britannia, Charles zi Britannia. Lelouch adoptó el apellido Lamperouge
+            (ルルーシュ・ランペルージ Rurūshu Ranperūji) después de ser exiliado junto con su hermana menor Nunnally.
+            Poco después de recibir el geass, Lelouch creó al personaje Zero, un misterioso enmascarado revolucionario
+            que viste de negro, con un casco y una capa. Lelouch también formó la Orden de los Caballeros Negros con el
+            objetivo de destruir a Britannia y procurar un mundo pacifico para él y su hermana. </h5>
+          <h5> Tamaño original: 1080 x 1920</h5>
+          <h5> Diseño: Digital</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-4 text-secondary" style="margin: 10rem 0 0 0;">
+      <div class="row align-items-center">
+        <div class="col-7">
+          <a href="#1">
+            <img src="{% static 'images/S.png' %}" alt="Responsive image" class="img-thumbnail">
+          </a>
+        </div>
+        <div class="col-4">
+          <div class="w-50 mx-auto"></div>
+          <h1> Senko </h1>
+          <h5> Aunque no se confirmó ni se abordó directamente, se da a entender que Senko cuidó de un hombre similar a
+            Kuroto en el pasado distante hasta que ocurrió algo trágico pero no revelado. En otras palabras, Senko
+            solía trabajar para el antepasado de Kuroto o un pariente mayor. Este antepasado aparece en muchos de los
+            sueños o recuerdos de Kuroto , así como en los de Senko. Se teoriza que fue Kuroto en una vida pasada. </h5>
+          <h5> Tamaño original: 1080 x 1920</h5>
+          <h5> Diseño: Digital</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-4 text-secondary" style="margin: 10rem 0 0 0;">
+      <div class="row align-items-center">
+        <div class="col-7">
+          <a href="#1">
+            <img src="{% static 'images/img7.jpg' %}" alt="Responsive image" class="img-thumbnail">
+          </a>
+        </div>
+        <div class="col-4">
+          <div class="w-50 mx-auto"></div>
+          <h1> Sanji </h1>
+          <h5> Conocido como Pierna Negra (黒脚 Kuro Ashi?) y nacido como Vinsmoke Sanji (ヴィンスモーク・サンジ Vinsumōku
+            Sanji?),[3] es el cocinero de los Piratas de Sombrero de Paja, el tercer hijo de la familia Vinsmoke[12] y
+            uno de los protagonistas principales del manga y anime de One Piece. Es el quinto miembro de la tripulación,
+            y el cuarto en unirse. Al haber nacido en el North Blue, fue el primer tripulante en no ser originario del
+            East Blue. Forma parte del «Trío Monstruoso» junto a Luffy y Roronoa Zoro; y, como tal, es uno de los
+            combatientes más fuertes de la tripulación. Su sueño es encontrar el mar legendario conocido como All Blue,
+            el cual, según la leyenda, es el único hábitat marino del mundo donde coinciden todas las especies de peces
+            que existen, confluyendo además otros seres marinos procedentes de los cinco mares. Tras los incidentes en
+            los territorios de la emperatriz pirata Big Mom su recompensa ascendió hasta los Belly330.000.000 siendo así
+            la tercera mas alta de los de Sombrero de paja, superada solo por el timonel Jinbe y el capitán Luffy. </h5>
+          <h5> Tamaño original: 1080 x 1920</h5>
+          <h5> Diseño: Digital</h5>
+        </div>
+      </div>
+    </div>
+
+
+
+
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <footer class="site-footer">
+    <center>
+        <Br>
+          <h3>FOLLOW US!</h3>
+          <p>
+            <a target="_blank" href="https://www.twitter.com/" class="p-2"><span class="fa fa-twitter"></span></a>
+            <a target="_blank" href="https://www.instagram.com/" class="p-2"><span class="fa fa-instagram"></span></a>
+          </p>
+      </center>
+      <div class="row justify-content-center">
+        <div class="col-md-7 text-center">
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | FV </a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
